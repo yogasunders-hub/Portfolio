@@ -611,7 +611,7 @@ section {
 
 /* Hero Image - Animations Removed as Requested */
 .hero-image {
-  margin-top: 70px;
+  margin-top: 0px;
   position: relative;
 }
 
@@ -619,7 +619,7 @@ section {
   width: min(500px, 90%);
   aspect-ratio: 1/1;
   margin: 0 auto;
-  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
   background: var(--gradient-primary);
   display: flex;
   align-items: center;

@@ -111,6 +111,7 @@ const Hero = () => {
                       width: '100%',
                       height: '100%',
                       objectFit: 'cover',
+                      objectPosition: '80% 10%',
                       borderRadius: 'inherit', // This will maintain the morphing shape
                     }}
                   />
