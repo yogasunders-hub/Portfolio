@@ -7,7 +7,7 @@ const Hero = () => {
 
   const downloadResume = async () => {
     try {
-      const response = await fetch('/Resume.pdf'); // Update this path to your actual resume file
+      const response = await fetch('/Yogasunder_S_Resume.pdf'); // Update this path to your actual resume file
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
