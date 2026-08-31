@@ -15,7 +15,7 @@ const Hero = () => {
       const url = window.URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = 'Resume.pdf';
+      a.download = 'Yogasunder_S_Resume.pdf';
       document.body.appendChild(a);
       a.click();
       window.URL.revokeObjectURL(url);
